@@ -1,0 +1,72 @@
+{
+  "name": "MasterFix - Profesyonel Apple Cihaz Onarım Servisi",
+  "short_name": "MasterFix",
+  "description": "iPhone, iPad, MacBook onarım hizmetleri. Hızlı, güvenilir ve profesyonel Apple cihaz tamiri.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#059669",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["business", "utilities", "productivity"],
+  "lang": "tr",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "WhatsApp Randevu",
+      "short_name": "Randevu",
+      "description": "WhatsApp üzerinden hızlı randevu alın",
+      "url": "https://wa.me/905345740909?text=Merhaba,%20cihaz%20onarımı%20için%20randevu%20almak%20istiyorum.",
+      "icons": [
+        {
+          "src": "/android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Hemen Ara",
+      "short_name": "Ara",
+      "description": "Telefon ile anında iletişime geçin",
+      "url": "tel:+905345740909",
+      "icons": [
+        {
+          "src": "/android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Onarım Servisleri",
+      "short_name": "Servisler",
+      "description": "Tüm onarım hizmetlerimizi görün",
+      "url": "/onarim-servisleri",
+      "icons": [
+        {
+          "src": "/android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
